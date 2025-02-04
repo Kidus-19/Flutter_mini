@@ -13,13 +13,13 @@ class StartScreen extends StatelessWidget {
           Image.asset(
             'assets/images/quiz-logo.png',
             width: 300,
-            color: const Color.fromARGB(100, 39, 31, 52),
+            color: const Color.fromARGB(255, 237, 223, 252),
           ),
           const SizedBox(height: 80),
           const Text(
             'Learn Flutter the fun way!',
             style: TextStyle(
-              color: Color.fromARGB(255, 237, 223, 252),
+              color: Color.fromARGB(100, 39, 31, 52),
               fontSize: 24,
             ),
           ),
@@ -32,7 +32,7 @@ class StartScreen extends StatelessWidget {
             onPressed: () {
               startQuiz();
             },
-            label: const Text('Start Quiz'),
+            label: const Text('Quiz'),
           )
         ],
       ),
