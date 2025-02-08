@@ -13,16 +13,16 @@ const questions = [
   QuizQuestion('How are Flutter UIs built?', [
     'By combining widgets in code',
     'By combining widgets in a visual editor',
-    'By defining widgets in config files',
     'By using XCode for iOS and Android Studio for Android',
+    'By defining widgets in config files',
   ]),
   QuizQuestion(
     'What\'s the purpose of a StatefulWidget?',
     [
       'Update UI as data changes',
       'Update data as UI changes',
-      'Ignore data changes',
       'Render UI that does not depend on data',
+      'Ignore data changes',
     ],
   ),
   QuizQuestion(
@@ -39,8 +39,8 @@ const questions = [
     [
       'The UI is not updated',
       'The UI is updated',
-      'The closest StatefulWidget is updated',
       'Any nested StatefulWidgets are updated',
+      'The closest StatefulWidget is updated',
     ],
   ),
   QuizQuestion(
