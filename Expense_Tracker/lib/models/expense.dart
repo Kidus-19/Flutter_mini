@@ -49,10 +49,10 @@ class ExpenseBucket {
   final List<Expense> expenses;
 
   double get totalExpenses {
-    double sum = 0;
+    double total = 0;
     for (final expense in expenses) {
-      sum += expense.amount;
+      total += expense.amount;
     }
-    return sum;
+    return total;
   }
 }
